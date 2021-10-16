@@ -1,9 +1,15 @@
-function App() {
+import HomeScreen from "./components/HomeScreen";
+
+const App = () => {
   return (
     <div className="App">
-      <p>React Ecommerce Project</p>
+      <p className="fs-1">React---- Ecommerce Project</p>
+      <HomeScreen />
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora odio aut
+      doloribus magnam repellendus tenetur, nobis iusto voluptates dolores non!
+      Doloribus sit tempore ducimus nam sunt laudantium dolor voluptas quaerat!
     </div>
   );
-}
+};
 
 export default App;
