@@ -28,12 +28,12 @@ const Navbar = () => {
                 aria-current="page"
                 to="/homescreen"
               >
-                Home
+                Home Screen
               </Link>
             </li>
             <li className="nav-item">
               <Link className="nav-link" to="/">
-                Link
+                Products
               </Link>
             </li>
           </ul>
